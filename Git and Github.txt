@@ -1,0 +1,14 @@
+git init
+
+git add .
+
+git config --global user.email "email"
+git config --global user.name "username"
+
+git commit -m "Comment / description"
+
+git branch -M main
+
+git remote add origin "https://github.com/xyz.git"
+
+git push -u origin main
